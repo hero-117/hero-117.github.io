@@ -32,10 +32,10 @@
     align-items: center;
     flex-direction: row;
     margin-right: 13px;
-    padding-right: 18px;
+    padding-right: 24px;
     background-size: contain;
-    background-image: url(https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/1926ae202f2a11eca429bf26f15cd563.png);
-    padding-left: 17px;
+    background-image: url(https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/f30bff102f3311ec9d7d5f3e57681500.png);
+    padding-left: 11px;
     height: 59px;
     line-height: 18px;
     white-space: nowrap;
@@ -72,8 +72,8 @@
     margin-right: 13px;
     border-width: 1px;
     border-radius: 8px;
-    padding-right: 18px;
-    padding-left: 15px;
+    padding-right: 24px;
+    padding-left: 9px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     border-style: solid;
     border-color: #979797;
@@ -139,7 +139,7 @@
   .button-wrapper {
     display: flex;
     position: relative;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     justify-content: center;
     border-width: 1px;
@@ -149,11 +149,10 @@
     background-color: #d8d8d8;
     width: 706px;
     height: 78px;
-    line-height: 18px;
   }
   
   .button {
-    margin-top: -2px;
+    margin-top: 15px;
     max-width: 694px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -166,19 +165,35 @@
   .group {
     display: flex;
     position: relative;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
-    justify-content: center;
     margin-top: 50px;
     background-size: contain;
-    background-image: url(https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/1b4177d02f2a11ecb9b331442d7402db.png);
-    width: 188px;
-    height: 189px;
+    background-image: url(https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/fd1c98702f3311ec89b94f4d2d5053d7.png);
     white-space: normal;
   }
   
-  .picture {
+  .logo {
+    position: absolute;
+    top: 95px;
+    left: 29px;
     width: 130px;
+    height: 1px;
+  }
+  
+  .view {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 95px;
+    width: 93px;
+    height: 189px;
+  }
+  
+  .vertical-line {
+    margin-left: -1px;
+    width: 1px;
     height: 133px;
   }
   
@@ -202,8 +217,6 @@
     align-items: center;
     flex-direction: row;
     margin-top: 73px;
-    line-height: 18px;
-    white-space: nowrap;
   }
   
   .primary-i0-1 {
@@ -214,14 +227,10 @@
     margin-right: 42px;
   }
   
-  .tag-wrapper-2 {
-    display: flex;
+  .mask {
     position: absolute;
     top: 0;
     left: 0;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
     border-width: 1px;
     border-style: solid;
     border-radius: 8px;
@@ -231,33 +240,39 @@
     height: 59px;
   }
   
-  .tag-2 {
+  .group-1 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #979797;
+    white-space: nowrap;
+  }
+  
+  .info {
+    position: relative;
+    margin-top: 16px;
     max-width: 327px;
+    height: 25px;
     overflow: hidden;
     text-overflow: ellipsis;
+    line-height: 25px;
     color: #000000;
     font-family: "PingFang SC";
     font-size: 18px;
     font-weight: 400;
   }
   
-  .group-1 {
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-direction: row;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 8px;
-    border-color: #979797;
-  }
-  
   .percent-wrapper {
     display: flex;
+    position: relative;
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    margin-top: 59px;
+    margin-top: 18px;
     border-width: 1px;
     border-style: solid;
     border-radius: 8px;
@@ -265,6 +280,7 @@
     background-color: #46bc6c;
     width: 339px;
     height: 81px;
+    line-height: 18px;
   }
   
   .percent {
@@ -285,9 +301,11 @@
     border-style: solid;
     border-radius: 8px;
     border-color: #979797;
+    line-height: 18px;
+    white-space: nowrap;
   }
   
-  .tag-wrapper-3 {
+  .tag-wrapper-2 {
     display: flex;
     position: relative;
     align-items: center;
@@ -302,7 +320,7 @@
     height: 59px;
   }
   
-  .tag-3 {
+  .tag-2 {
     max-width: 321px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -389,7 +407,7 @@
     flex-direction: row;
   }
   
-  .mask {
+  .overlayer {
     position: absolute;
     top: 0;
     left: 0;
@@ -442,7 +460,7 @@
   
   .word {
     margin-right: 44px;
-    line-height: 25px;
+    line-height: 92px;
     white-space: nowrap;
     color: #000000;
     font-family: "PingFang SC";
